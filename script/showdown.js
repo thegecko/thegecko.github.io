@@ -25,7 +25,7 @@
 
             var options = {
                 elementName: "showdown",
-                file: "./README.md"
+                file: "/README.md"
             };
 
             if (root.options) {
