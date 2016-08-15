@@ -33,7 +33,7 @@
             }
 
             if (document.location.search) options.file = getFile(document.location.search);
-            else if (document.location.pathname) options.file = getFile(document.location.path);
+            else if (document.location.pathname) options.file = getFile(document.location.pathname);
 
             if (document.location.hash) {
                 options.slide = parseInt(document.location.hash.substr(1));
