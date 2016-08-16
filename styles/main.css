@@ -35,6 +35,6 @@ a:visited {
     display: flex;
     align-items: center;
     justify-content: center;
-    min-width: 1280;
-    min-height: 720;
+    min-width: 1920;
+    min-height: 1080;
 }
