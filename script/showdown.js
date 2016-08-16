@@ -228,8 +228,8 @@
             return;
         }
 
-        if (document.body.requestFullscreen && !document.webkitFullscreenElement) {
-            document.body.requestFullscreen();
+        if (document.body.mozRequestFullScreen && !document.mozFullScreenElement) {
+            document.body.mozRequestFullScreen();
             return;
         }
 
