@@ -4,7 +4,6 @@ A simple slideshow for markdown files using vanilla JS
 
 [https://thegecko.github.io](https://thegecko.github.io)
 
-cross-browser test
 tidy code
 instructions
 
