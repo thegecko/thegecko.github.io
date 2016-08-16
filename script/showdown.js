@@ -267,8 +267,8 @@
     }, false);
 
     document.addEventListener('touchend', function(e) {
-        if (e.changedTouches[0].screenX < touchX) prev();
-        if (e.changedTouches[0].screenX > touchX) next();
+        if (e.changedTouches[0].screenX > touchX) prev();
+        if (e.changedTouches[0].screenX < touchX) next();
     }, false);
 
     scale();
