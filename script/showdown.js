@@ -263,12 +263,12 @@
 
     var touchX = 0;
     document.addEventListener('touchstart', function(e) {
-        touchX = e.screenX;
+        touchX = e.changedTouches[0].screenX;
     }, false);
 
     document.addEventListener('touchend', function(e) {
-        if (e.screenX < touchX) prev();
-        if (e.screenX > touchX) next();
+        if (e.changedTouches[0].screenX < touchX) prev();
+        if (e.changedTouches[0].screenX > touchX) next();
     }, false);
 
     scale();
